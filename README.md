@@ -2,7 +2,7 @@
 
 A full-stack **Field Service Management** system designed to digitize and streamline operations between field technicians and office staff.
 
-The goal is to eliminate paper-based processes and create a smoother, real-time workflow for service job management.
+🔗 **Live Demo:** [field-service-manager-demo](https://field-service-manager-demo-itsabhipros-projects.vercel.app)
 
 ---
 
@@ -35,7 +35,7 @@ Many field service companies still rely on paper forms, phone calls, and manual 
 
 ### Common
 - Role-based access (Technician vs Admin)
-- Secure authentication
+- Secure authentication (planned)
 - Clean and responsive UI
 
 ---
@@ -43,87 +43,33 @@ Many field service companies still rely on paper forms, phone calls, and manual 
 ## 🛠️ Tech Stack
 
 **Frontend**
-- Next.js
-- React
+- Next.js 14
+- React 18
 - TypeScript
 - Tailwind CSS
+- Lucide Icons
 
-**Backend**
-- ASP.NET Core
-- C#
-- Entity Framework / SQL Server (or Supabase)
-
-**Other**
-- JWT / Cookie-based Authentication
-- RESTful APIs
-- Docker (optional for deployment)
-
----
-
-## 📁 Project Structure
-
-```
-field-service-manager/
-├── frontend/                 # Next.js application
-│   ├── app/
-│   ├── components/
-│   ├── lib/
-│   └── ...
-├── backend/                  # ASP.NET Core Web API
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Services/
-│   └── ...
-├── docs/
-└── README.md
-```
+**Data**
+- Mock data layer (ready for Supabase / Azure SQL)
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Node.js 18+
-- .NET 10 SDK
-- SQL Server or PostgreSQL
-
-### Frontend Setup
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
 
-### Backend Setup
-```bash
-cd backend
-dotnet restore
-dotnet run
-```
+Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
 ## 📌 Current Status
 
 - **Started:** August 2026
-- **Target Completion:** ~60 days
-- **Status:** In Active Development
-
----
-
-## 📸 Screenshots
-
-*(Add screenshots here once UI is ready)*
-
----
-
-## 🧠 What I'm Focusing On
-
-- Clean architecture
-- Proper separation of concerns
-- Role-based authorization
-- Real-world usability for field teams
-- Maintainable and scalable code
+- **Status:** MVP demo live on Vercel
+- Full backend (ASP.NET Core / Supabase) in progress
 
 ---
 
