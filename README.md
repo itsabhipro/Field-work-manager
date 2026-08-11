@@ -2,7 +2,7 @@
 
 A full-stack **Field Service Management** system designed to digitize and streamline operations between field technicians and office staff.
 
-🔗 **Live Demo:** [field-service-manager-demo](https://field-service-manager-demo-itsabhipros-projects.vercel.app)
+🔗 **Live Demo:** [field-service-manager-demo](https://field-work-manager.vercel.app/
 
 ---
 
