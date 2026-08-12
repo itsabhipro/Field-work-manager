@@ -75,7 +75,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ---
 ## Flow of operation
   Creator-> draft complain -> dispatch -> dispatcher accepts-> assign to technician -> technician accepts -> give answer to system like are you driving? -> start work -> can hold -> if not possible to fix or other reason
-                                                                                                                                                                       -> start -> make service report -> - finish without material request - finish complain
+                                                                                                                                                                       -> otherwise -> make service report -> have two options -> 1. finish without material request 2. finish complain -> if finish without material request -> material request would in pending to submit but complain would completed -> if finish complain -> open material request page -> select frequently work for speed -> add remove material -> finish
                                                                                                                                                                        
 ### Material request flow
   technician -> submit request -> manager -> will approve -> store manager -> collecting stuffs -> make a qr code -> update for ready for delivery -> technician notified -> technician scans qr code -> if matches his credentials -> stock transaction -> confirmation message -> done
